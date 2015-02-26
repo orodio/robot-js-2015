@@ -10,12 +10,15 @@
   "license": "ISC",
   "devDependencies": {
     "6to5-core": "^3.6.0",
-    "jest-cli": "^0.2.2"
+    "jest-cli": "^0.4.0"
   },
-
   "jest": {
-    "scriptPreprocessor":"<rootDir>/preJest.js",
-    "testFileExtensions": ["js"],
-    "moduleFileExtensions": ["js"]
+    "scriptPreprocessor": "<rootDir>/preJest.js",
+    "testFileExtensions": [
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ]
   }
 }
